@@ -1,3 +1,50 @@
 body {
-    background-color: red;
+    background-color: green;
+}
+.theCard{
+    background-color: white;
+    width:250px;
+    height:400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+.theNumber{
+}
+.theCard.heart::before{
+    content: "\2665";
+    align-self: flex-start;
+}
+.theCard.heart::after{
+    content: "\2665";
+    align-self: flex-end;
+}
+.theCard.blackclub::before{
+    content: "\2663";
+    align-self: flex-start;
+}
+.theCard.blackclub::after{
+    content: "\2663";
+    align-self: flex-end;
+}
+.theCard.spades::before{
+    content: "\2660";
+    align-self: flex-start;
+}
+.theCard.spades::after{
+    content: "\2660";
+    align-self: flex-end;
+}
+.theCard.diamond::before{
+    content: "\2666";
+    align-self: flex-start;
+}
+.theCard.diamond::after{
+    content: "\2666";
+    align-self: flex-end;
 }

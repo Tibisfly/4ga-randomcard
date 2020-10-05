@@ -1,5 +1,9 @@
 require('./style.css')
 
 window.onload = function() {
-    console.log('Hello world')
+
+    let poker = getElementId(theCard)
+    
+
+
 }
