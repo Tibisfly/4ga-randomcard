@@ -14,37 +14,52 @@ body {
     align-items: center;
     justify-content: space-around;
 }
-.theNumber{
-}
 .theCard.heart::before{
     content: "\2665";
     align-self: flex-start;
+    padding-left: 20px;
+    color:red;
 }
 .theCard.heart::after{
     content: "\2665";
     align-self: flex-end;
+    padding-right: 20px;
+    color:red;
 }
 .theCard.blackclub::before{
     content: "\2663";
     align-self: flex-start;
+    padding-left: 20px;
 }
 .theCard.blackclub::after{
     content: "\2663";
     align-self: flex-end;
+    padding-right: 20px;
 }
 .theCard.spades::before{
     content: "\2660";
     align-self: flex-start;
+    padding-left: 20px;
 }
 .theCard.spades::after{
     content: "\2660";
     align-self: flex-end;
+    padding-right: 20px;
 }
 .theCard.diamond::before{
     content: "\2666";
     align-self: flex-start;
+    padding-left: 20px;
+    color:red;
 }
 .theCard.diamond::after{
     content: "\2666";
     align-self: flex-end;
+    padding-right: 20px;
+    color:red;
+}
+.elBoton{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
 }
