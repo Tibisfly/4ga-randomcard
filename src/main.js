@@ -20,6 +20,7 @@ function changeCard(){
     elementNumber.innerHTML = card[numberRandom];
     
     let randomPoker =  poker[Math.floor(Math.random() * poker.length)];
+    elementCard.className = "theCard";
     elementCard.classList.add(randomPoker);
 }
 
